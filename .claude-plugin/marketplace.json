@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+    "name": "etherpk",
+    "owner": {
+        "name": "EtherPK",
+        "url": "https://etherpk.com"
+    },
+    "description": "EtherPK for Claude Code: notes in plain Markdown that you and Claude both read and write.",
+    "plugins": [
+        {
+            "name": "etherpk",
+            "description": "Your EtherPK notes in Claude Code. Claude searches, reads and edits a synced graph, kept end-to-end encrypted across your devices, or a graph folder on this device, and writes pages, journal entries and tasks in the EtherPK Format.",
+            "category": "productivity",
+            "source": "./"
+        }
+    ]
+}
